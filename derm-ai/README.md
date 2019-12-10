@@ -7,11 +7,15 @@
 [image5]: ./images/sample_ROC_curve.png "Sample ROC curve"
 [image6]: ./images/sample_confusion_matrix.png "Sample confusion matrix"
 
+# Preface
+
+Here I give my solution to part of the 2017 ISIC Challenge, as part of the Udacity deep learning nanodegree program. The course assignment is described below. My solution is given in ISIC_2017_Challenge.ipynb. Using FastAI, basically no hyperparameter tuning and about 40 minutes of training time on a GPU, this simple result achieves 7th place in the 2017 competition and a mean AUC of only 0.03 below the winning score.
+
 # Dermatologist AI
 
 ## Introduction
 
-In this mini project, you will design an algorithm that can visually diagnose [melanoma](http://www.skincancer.org/skin-cancer-information/melanoma), the deadliest form of skin cancer.  In particular, your algorithm will distinguish this malignant skin tumor from two types of benign lesions ([nevi](http://missinglink.ucsf.edu/lm/dermatologyglossary/nevus.html) and [seborrheic keratoses](https://www.aad.org/public/diseases/bumps-and-growths/seborrheic-keratoses)). 
+In this mini project, you will design an algorithm that can visually diagnose [melanoma](http://www.skincancer.org/skin-cancer-information/melanoma), the deadliest form of skin cancer.  In particular, your algorithm will distinguish this malignant skin tumor from two types of benign lesions ([nevi](http://missinglink.ucsf.edu/lm/dermatologyglossary/nevus.html) and [seborrheic keratoses](https://www.aad.org/public/diseases/bumps-and-growths/seborrheic-keratoses)).
 
 The data and objective are pulled from the [2017 ISIC Challenge on Skin Lesion Analysis Towards Melanoma Detection](https://challenge.kitware.com/#challenge/583f126bcad3a51cc66c8d9a).  As part of the challenge, participants were tasked to design an algorithm to diagnose skin lesion images as one of three different skin diseases (melanoma, nevus, or seborrheic keratosis).  In this project, you will create a model to generate your own predictions.
 
