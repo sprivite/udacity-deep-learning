@@ -4,6 +4,9 @@
 [image2]: ./images/vgg16_model.png "VGG-16 Model Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
+## Preface
+
+This is my solution to the dog breed classifier project, described below. I build and train a CNN from scratch and obtain 72% top-1 classification error. Then I start with a ResNet50 architecture with weights pretrained on ImageNet data and show that this model achieves an 12% top-1 error rate, training for about 10 minutes on a Titan V GPU. Not bad! 
 
 ## Project Overview
 
