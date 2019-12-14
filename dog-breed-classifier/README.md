@@ -6,11 +6,11 @@
 
 ## Preface
 
-This is my solution to the dog breed classifier project, described below. I build and train a CNN from scratch and obtain 72% top-1 classification error. Then I start with a ResNet50 architecture with weights pretrained on ImageNet data and show that this model achieves an 12% top-1 error rate, training for about 10 minutes on a Titan V GPU. Not bad! 
+This is my solution to the dog breed classifier project, described below. I build and train a CNN from scratch and obtain 13% top-1 classification accuracy. Then I start with a ResNet50 architecture with weights pretrained on ImageNet data and show that this model achieves an 72% top-1 accuracy, training for about 10 minutes on a Titan V GPU. Not bad!
 
 ## Project Overview
 
-Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.
 
 ![Sample Output][image1]
 
